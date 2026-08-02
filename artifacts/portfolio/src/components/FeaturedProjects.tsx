@@ -4,21 +4,94 @@ import { Github, ExternalLink, Code2 } from 'lucide-react';
 
 const PROJECTS = [
   {
-    id: 'tunisia-dashboard',
-    title: 'Tunisia-Village-Dashboard',
-    github: 'https://github.com/Rahma/Tunisia-Village-Dashboard',
-    description: 'A premium dashboard UI built with Next.js App Router and TypeScript. Featuring reusable select inputs, customizable multi-step dashboards, map rendering with custom search radii, and dynamic accordion schedules.',
-    tags: ['Next.js', 'TypeScript', 'Dashboard', 'RTL'],
-    imageGradient: 'from-blue-600 to-cyan-500'
+    id: 'ordering-app',
+    title: 'QuickBite Distributed Ordering System',
+    github: 'https://github.com/Rahmasamy/ordering-app',
+    description: 'A multi-tenant food ordering microservices platform demonstrating distributed systems concepts: geographic sharding, monthly table partitioning, transactional outbox pattern with RabbitMQ, Redis caching, and real-time Socket.IO push.',
+    tags: ['Microservices', 'Distributed Systems', 'RabbitMQ', 'Redis', 'PostgreSQL', 'Socket.IO'],
+    imageGradient: 'from-emerald-500 to-teal-500'
   },
   {
-    id: 'coring-services',
-    title: 'Coring & Ordering Services',
-    github: 'https://github.com/Rahma/coring-services',
-    description: 'A distributed backend engine featuring region-based sharding, transaction outboxing, authentication middleware, status change triggers, and Redis-backed caching strategies.',
-    tags: ['Node.js', 'Redis', 'Microservices', 'PostgreSQL'],
-    imageGradient: 'from-purple-600 to-indigo-500'
-  }
+    id: 'musliem-community',
+    title: 'Musliem Community Platform',
+    github: 'https://github.com/Rahmasamy/Musliem-Community-Project',
+    description: 'Full-stack community platform enabling group creation, event management, halal product marketplace, real-time Socket.io chat, membership subscriptions, and administrative content moderation.',
+    tags: ['React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'Socket.io', 'Zustand'],
+    imageGradient: 'from-purple-600 to-pink-500'
+  },
+   {
+    id: 'shoes-website',
+    title: 'Sole Haven — Premium E-Commerce',
+    github: 'https://github.com/Rahmasamy/shoes-website',
+    description: 'A modern, full-stack e-commerce application built with React, Express, and PostgreSQL. Features product filtering, user authentication, interactive cart & wishlist, Drizzle ORM, and full Docker containerization.',
+    tags: ['React', 'Express', 'PostgreSQL', 'TypeScript', 'Tailwind CSS', 'Docker'],
+    imageGradient: 'from-amber-500 to-rose-500'
+  },
+  {
+    id: 'manasa-client',
+    title: 'Manasa — E-Learning & Knowledge Platform',
+    github: 'https://github.com/Rahmasamy/manasa-client',
+    description: 'Educational e-learning platform frontend featuring structured course tracking, digital electronic library, certificates, instructor/admin dashboards, and internationalization with RTL support.',
+    tags: ['Next.js', 'React 19', 'TypeScript', 'Tailwind CSS', 'Zustand', 'React Query'],
+    imageGradient: 'from-blue-600 to-indigo-600'
+  },
+  {
+    id: 'tunisia-dashboard',
+    title: 'Tunisia-Village-Dashboard',
+    github: 'https://github.com/Rahmasamy/Tunisia-Village-Dashboard',
+    description: 'A premium dashboard UI built with Next.js App Router and TypeScript. Featuring reusable select inputs, customizable multi-step dashboards, map rendering with custom search radii, and dynamic accordion schedules.',
+    tags: ['Next.js', 'TypeScript', 'Dashboard', 'RTL'],
+    imageGradient: 'from-cyan-500 to-blue-600'
+  },
+  {
+    id: 'event-system-gateway',
+    title: 'Fincart Event Orchestration Gateway',
+    github: 'https://github.com/Rahmasamy/Event-system-gateway',
+    description: 'A high-concurrency, asynchronous event gateway built with Node.js, Express, BullMQ, Redis, and MongoDB. Absorbs massive traffic bursts with HMAC signature validation, Redis idempotency guards, Dead Letter Queues (DLQ), and exponential backoff retry mechanisms.',
+    tags: ['Node.js', 'Express', 'BullMQ', 'Redis', 'MongoDB', 'System Design'],
+    imageGradient: 'from-violet-600 to-indigo-600'
+  },
+  {
+    id: 'lms-angular-laravel',
+    title: 'LMS Platform — Angular & Laravel',
+    github: 'https://github.com/Rahmasamy/LMS',
+    description: 'Full-stack Learning Management System featuring course enrollment, secure payment processing, student progress tracking, category filtering, dynamic forms, and comprehensive instructor dashboards for managing lessons, quizzes, and reviews.',
+    tags: ['Angular', 'Laravel', 'PHP', 'MySQL', 'REST API', 'TypeScript'],
+    imageGradient: 'from-rose-500 to-orange-500'
+  },
+  {
+    id: 'ecommerce-react-laravel',
+    title: 'E-Commerce Platform — React & Laravel',
+    github: 'https://github.com/Rahmasamy/Ecommerce-React-Laravel',
+    description: 'Full-stack e-commerce web application featuring React single-page architecture with React Router, connected to a Laravel JWT-authenticated RESTful backend API with product carousels, quick view modals, and interactive shopping cart management.',
+    tags: ['React', 'Laravel', 'PHP', 'JWT Auth', 'REST API', 'Tailwind CSS'],
+    imageGradient: 'from-blue-500 to-teal-500'
+  },
+  {
+    id: 'mean-stack-book-store',
+    title: 'MEAN Stack Book Store',
+    github: 'https://github.com/AhmedHussein70/mean-Stack-book-store',
+    description: 'A full-stack online bookstore application built with Angular and Node.js. Features user authentication (registration & login), book catalog browsing, author profiles, category filtering, customer reviews, and testimonials.',
+    tags: ['Angular', 'Node.js', 'Express', 'MongoDB', 'TypeScript'],
+    imageGradient: 'from-amber-500 to-yellow-600'
+  },
+  {
+    id: 'classpill-project',
+    title: 'ClassPill — Gamified Learning System',
+    github: 'https://github.com/Rahmasamy/classpill-Project',
+    description: 'Interactive educational platform facilitating teacher-student engagement through educational mini-games, classroom interaction modules, progress tracking, and gamified study sessions.',
+    tags: ['JavaScript', 'HTML5', 'CSS3', 'Gamification', 'LMS'],
+    imageGradient: 'from-fuchsia-500 to-purple-600'
+  },
+  {
+    id: 'codequote-center',
+    title: 'CodeQuote — Autism Center Platform',
+    github: 'https://github.com/Rahmasamy/CodeQuoteCeneter',
+    description: 'Dedicated web platform built for an autism care & educational center using PHP, HTML5, CSS3, and JavaScript. Designed to present center services, consultation scheduling, educational materials, and family support resources.',
+    tags: ['PHP', 'JavaScript', 'HTML5', 'CSS3', 'Web Design'],
+    imageGradient: 'from-teal-500 to-cyan-600'
+  },
+ 
 ];
 
 export function FeaturedProjects() {
@@ -38,7 +111,7 @@ export function FeaturedProjects() {
             <div className="h-1 w-24 bg-primary mt-6 rounded-full shadow-[0_0_15px_hsl(var(--primary))]" />
           </div>
           <a 
-            href="https://github.com/Rahma" 
+            href="https://github.com/Rahmasamy" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground hover:text-white font-mono text-sm transition-colors"

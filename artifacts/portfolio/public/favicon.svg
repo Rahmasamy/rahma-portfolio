@@ -1,3 +1,18 @@
 <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+  <rect width="180" height="180" rx="40" fill="#0D0E15"/>
+  <rect x="4" y="4" width="172" height="172" rx="36" stroke="url(#border_grad)" stroke-width="4" stroke-opacity="0.5"/>
+  <!-- Stylized R Monogram with glowing terminal accent -->
+  <path d="M48 48 H86 C106 48 120 60 120 76 C120 91 107 102 88 103 L122 132 H98 L68 104 V132 H48 V48 Z M68 64 V88 H84 C93 88 100 83 100 76 C100 69 93 64 84 64 H68 Z" fill="url(#brand_grad)"/>
+  <circle cx="134" cy="128" r="7" fill="#6366F1"/>
+  <defs>
+    <linearGradient id="brand_grad" x1="40" y1="40" x2="140" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="border_grad" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
 </svg>
